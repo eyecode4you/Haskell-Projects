@@ -1,7 +1,5 @@
 module Main (main, prettyPrint) where
-
 type Port = Int
-
 data Address = Address Int Int Int Int Port
 
 prettyPrint :: Address -> IO ()
