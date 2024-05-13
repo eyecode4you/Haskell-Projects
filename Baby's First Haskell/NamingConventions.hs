@@ -1,3 +1,5 @@
+-- NamingConventionsInHaskell
+
 module Main (main) where
 
 data MyType = MyDataConstructor String
