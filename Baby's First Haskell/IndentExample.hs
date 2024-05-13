@@ -7,7 +7,7 @@ g x y = a + b
     where x = a    -- first add can also be inline
           y = b
 
-q x = case x of p0 -> a
+q x = case x of p0 -> a    -- ensure next line follows same indentation
                 p1 -> b
 
 p x = case x of
