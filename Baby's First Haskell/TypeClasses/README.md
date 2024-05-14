@@ -12,6 +12,7 @@
   + IO - IO actions
   + Integral - For integers and similar
   + Num - Numeric types
+    + +, -, *, abs, etc.
   + Ord - types that have ordering
     + e.g. compare, <, <=, max, min, etc.
   + Read - types that can be read from strings
