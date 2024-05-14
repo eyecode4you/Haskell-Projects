@@ -1,5 +1,5 @@
 # Range in Python
-x = range(1, 10)
+x = range(1, 11)
 for n in x:
   print(n)
 
