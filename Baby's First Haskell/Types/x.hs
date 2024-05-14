@@ -1,5 +1,5 @@
 # Range in Python
-range(1, 11)
+x = [n for n in range(1, 11)]
 
 -- Range in Haskell
-[1..10]
+x = [1..10]
