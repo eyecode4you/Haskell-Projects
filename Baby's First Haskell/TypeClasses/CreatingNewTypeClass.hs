@@ -1,7 +1,7 @@
 class Dingus a where
     dingu :: a -> (String, Integer)  -- some type a to tuple, any class implementing Dingus must have this format
 
--- 3 algebraic data types
+-- handle 3 algebraic data types
 data A = A { aValue :: Int }
 instance Dingus A where
   dingu a = let value = aValue a in (show value, toInteger value)  -- extract value, show, and convert to int
