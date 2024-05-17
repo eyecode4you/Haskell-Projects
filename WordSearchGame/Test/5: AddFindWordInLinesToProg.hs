@@ -13,7 +13,7 @@ findWordInLine word line = word `isInfixOf` line
 
 -- check for word in all lines:
 findWordInLines :: Grid -> String -> Bool
-findWordInLines grid word = or (map (findWordInLine word) grid)
+findWordInLines grid word = or $ map (findWordInLine word) grid
 
 grid = [ "LMTH________Q__"
        , "___O_______R___"
