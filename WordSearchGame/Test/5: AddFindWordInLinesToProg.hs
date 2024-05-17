@@ -11,7 +11,7 @@ formatGrid = unlines
 findWordInLine :: String -> String -> Bool
 findWordInLine word line = word `isInfixOf` line
 
--- check for word in all lines:
+-- check for word in all lines (note this only searches from right -> left):
 findWordInLines :: Grid -> String -> Bool
 findWordInLines grid word = or $ map (findWordInLine word) grid
 
