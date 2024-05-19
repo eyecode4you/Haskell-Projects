@@ -1,1 +1,1 @@
-# Step-by-step process for developing a wordpress game in Haskell
+# Step-by-step process for developing a wordsearch game in Haskell
