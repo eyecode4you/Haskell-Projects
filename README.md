@@ -1,2 +1,2 @@
 # Haskell-Projects
-Haskell Projects
+A Mischmash of Haskell Projects
