@@ -1,5 +1,5 @@
 myIf True thenFunc elseFunc = thenFunc
-myIf False thenFunc elseFunce = elseFunc
+myIf False thenFunc elseFunc = elseFunc
 
 main =
     let x = 5
