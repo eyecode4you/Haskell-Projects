@@ -1,1 +1,1 @@
-# Quick Haskell Tutorials on functionality
+# Quick Haskell Coverage on functionality
